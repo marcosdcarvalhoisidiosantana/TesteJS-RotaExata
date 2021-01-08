@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TesteDev - JS</title>
+  <link rel="stylesheet" href="login.css">
+  
+</head>
+
+<body>
+    <div class="omega-div">
+        <div class="wrapper">
+            <label class="wrapper-label">Login:</label>
+            <input class="wrapper-input-text" type="text" id="login" placeholder="Insira o login" requir>
+            <label class="wrapper-label">Senha:</label>
+            <input class="wrapper-input-text" type="text" id="senha" placeholder="Insira a senha">
+        </div>
+        <div class="wrapper-2">
+            <label class="wrapper-label">Acerte a pergunta para provar que não é um robô.</label>
+            <label class="wrapper-label">Você gosta de pizza?</label>
+            <div>
+                <input type="radio" id="sim" name="pizza" value="s">
+                <label class="wrapper-label" for="s">Sim</label>
+                <input type="radio" id="nao" name="pizza" value="n">
+                <label class="wrapper-label" for="n">Não</label>
+            </div>
+        </div>
+        <div class="wrapper-2">
+            <label>Selecione pelo menos uma fruta que você gosta.</label>
+            <div>
+                <input type="checkbox" id="fruta" name="fruta">
+                <label for="banana">Banana</label>
+                <input type="checkbox" id="fruta" name="fruta">
+                <label for="uva">Uva</label>
+                <input type="checkbox" id="fruta" name="fruta">
+                <label for="maca">Maçã</label>
+                <input type="checkbox" id="fruta" name="fruta">
+                <label for="abacaxi">Abacaxi</label>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="wrapper-div" id='msg-validacao-login' style='color: red'>
+                <p>Você precisa digitar um login</p>
+            </div>
+            <div class="wrapper-div" id='msg-validacao-senha' style='color: red'>
+                <p>Você precisa digitar uma senha</p>
+            </div>
+            <div class="wrapper-div" id='msg-validacao-pizza' style='color: red'>
+                <p>Você precisa confirmar que não é um robô</p>
+            </div>
+            <div class="wrapper-div" id='msg-validacao-fruta' style='color: red'>
+                <p>Escolha uma fruta.</p>
+            </div>
+            <button type="submit" id="btn-login">Login</button>
+            <button id="btn-reset" type="reset">Limpar formulário</button>
+    </div>
+  <script src="login.js"></script>
+</body>
+</html>

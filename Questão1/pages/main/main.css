@@ -1,0 +1,44 @@
+body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    font: 400 18px Roboto, sans-serif;
+    background: #f0f0f5;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.omega-div {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    background:white;
+    display: block;
+    border-radius: 2%;
+    border-color: black;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 580px;
+    padding: 20px;
+    color: Black;
+    position: relative;
+    background:white;
+    display: block;
+    text-align: center;
+}
+
+button {
+    padding: 2px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+}

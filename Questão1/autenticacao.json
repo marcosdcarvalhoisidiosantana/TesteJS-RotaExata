@@ -1,0 +1,6 @@
+{
+    "autenticacao": [
+      { "login": "marcos.santana", "senha": "senhaTeste" },
+      { "login": "rotaExata", "senha": "TesteDev"}
+    ]
+}
