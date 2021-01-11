@@ -35,7 +35,6 @@ let produtos = [
 let table = document.getElementById('tabela')
 let table_invertida = document.getElementById('tabela-invertida')
 
-
 produtos.forEach((object) => {
     let row = table.insertRow();
     let nome = row.insertCell()
@@ -49,7 +48,9 @@ produtos.forEach((object) => {
 })
 
 produtos.sort((a,b) => {
-    let valor = b.nome[8] - a.nome[8]
+    let string = a.nome.split(" ")
+    let string2 = b.nome.split(" ")
+    let valor = string2[1] - string[1]
     return valor
 });
 
